@@ -17,7 +17,7 @@ let citiesDistances: [[Int]] = [
     [0, 180, 140, 220, infinity, infinity, infinity],
     [180, 0, infinity, 220, infinity, infinity, 200],
     [140, infinity, 0, 220, 300, infinity, infinity],
-    [220, 220, 220, infinity, 140, 0, 290, infinity],
+    [220, 220, 220, 0, 140, infinity, 200],
     [infinity, infinity, 300, 140, 0, 290, infinity],
     [infinity, infinity, infinity, infinity, 290, 0, 80],
     [infinity, 200, infinity, 200, infinity, 80, 0],
