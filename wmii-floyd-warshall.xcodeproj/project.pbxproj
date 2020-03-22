@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8F7E005524278579002A481F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8FBC9E7A24264DFE0067CD4A /* wmii-floyd-warshall */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "wmii-floyd-warshall"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBC9E7D24264DFE0067CD4A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +42,7 @@
 		8FBC9E7124264DFE0067CD4A = {
 			isa = PBXGroup;
 			children = (
+				8F7E005524278579002A481F /* README.md */,
 				8FBC9E7C24264DFE0067CD4A /* wmii-floyd-warshall */,
 				8FBC9E7B24264DFE0067CD4A /* Products */,
 			);

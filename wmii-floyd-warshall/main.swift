@@ -1,14 +1,7 @@
-//
-//  main.swift
-//  wmii-floyd-warshall
-//
-//  Created by Adrian Celczyński on 21/03/2020.
-//
-
 import Foundation
 
 let infinity = 10000
-let citiesNames = ["Poznan   ", "Wrocław  ", "Bydgoszcz", "Łódź     ", "Warszawa ", "Kraków   ", "Katowice "]
+let citiesNames = ["Poznań", "Wrocław", "Bydgoszcz", "Łódź", "Warszawa", "Kraków", "Katowice"]
 let numberOfCities = citiesNames.count
 
 var computedDistances: [[Int]] = Array(repeating: Array(repeating: 0, count: numberOfCities), count: numberOfCities)
@@ -39,16 +32,11 @@ for k in 0..<numberOfCities {
     }
 }
 
-func printResults() -> Void {
-    print("RESULTS")
+for i in 0..<numberOfCities {
+    print(citiesNames[i], terminator: " ")
     
-    for i in 0..<numberOfCities {
-        print(citiesNames[i], terminator: " ")
-        for j in 0..<numberOfCities {
-            print(computedDistances[i][j], terminator: " ")
-        }
-        print()
+    for j in 0..<numberOfCities {
+        print(computedDistances[i][j], terminator: " ")
     }
+    print()
 }
-
-printResults()
